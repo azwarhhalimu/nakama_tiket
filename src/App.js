@@ -168,7 +168,7 @@ function App() {
                 ))}
                 <tr style={{ fontWeight: "bold" }}>
                   <td style={{ fontSize: "bold" }}>Keterangan</td>
-                  <td>{data["keterangan"] == "" ? data["keterangan"] : "-"}</td>
+                  <td>{data["keterangan"] !== "" ? data["keterangan"] : "-"}</td>
                 </tr>
               </tbody>
             </table>
