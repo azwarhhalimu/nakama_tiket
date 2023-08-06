@@ -48,7 +48,7 @@ function App() {
       {loading && <div style={{ width: "100%", zIndex: "999999", textAlign: "center", position: "fixed", top: "40%", left: "34%" }}>
         <div style={{ textAlign: "center", width: "100px", fontWeight: "bold", color: "BLUE", padding: "10px", background: "#fff", border: "2px solid #DFDFDF" }}>Mengambil<br />data...</div>
       </div >}
-      <div>
+      <div style={{ opacity: "0.5" }}>
         <div style={{ textAlign: 'center', color: '#FFF', fontWeight: 'bold', background: '#1783FF', padding: 15 }}>
           Tiket
           <div style={{ height: 150 }} />
