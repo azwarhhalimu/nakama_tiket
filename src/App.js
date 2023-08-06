@@ -134,7 +134,7 @@ function App() {
             </div>
           </div>
           <br />
-          <table style={{ color: "#b42d2d" }}>
+          <table style={{ color: "#1c3afd", fontWeight: "bold", fontSize: "17px" }}>
             <tbody><tr>
               <td>Nama </td>
               <td> : </td>
