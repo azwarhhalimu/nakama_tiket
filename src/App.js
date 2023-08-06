@@ -48,7 +48,7 @@ function App() {
       {loading && <div style={{ width: "100%", zIndex: "999999", textAlign: "center", position: "fixed", top: "40%", left: "34%" }}>
         <div style={{ textAlign: "center", width: "100px", fontWeight: "bold", color: "BLUE", padding: "10px", background: "#fff", border: "2px solid #DFDFDF" }}>Mengambil<br />data...</div>
       </div >}
-      <div style={{ opacity: "0.5" }}>
+      <div style={{ opacity: loading ? "0.3" : "1" }}>
         <div style={{ textAlign: 'center', color: '#FFF', fontWeight: 'bold', background: '#1783FF', padding: 15 }}>
           Tiket
           <div style={{ height: 150 }} />
@@ -65,7 +65,8 @@ function App() {
                 <tbody>
                   <tr>
                     <td width="40px">
-                      <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAQ1JREFUaEPtWdEOwiAMvP2Zfpn6ZfpnmhqXGARuDLeW7Pq0hAG9a3uwdcLgNg3uPwTAO4KKQPQInABcPk7a8952A3CtbcpS6Lm3x4X9zgAeubEaAEM+s++Nw5w3ED9WAxCFfXP6LwBSsClAlo4pe2w+G3+v1xIBAUhCwBhm48eLAFOi3hpYtX5LDazaoDKpVeWyvgrAF8PhU0gyKhntvAsNn0JMRrce31xGBYAwoAgMX8QCoIOs8yBjMhn+MicApAZWEXSoDxrJqGS0U0aHS6E7AI+eQEmNmm+jkQAUGx01GTX2DUQEK/q55Pj3anTMHRljP9udYb/XIzBPfVgSAbqI5wsC4Mm+asCbfdv/BQJHYzF1fzpbAAAAAElFTkSuQmCC" /> </td>
+                      <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAQ1JREFUaEPtWdEOwiAMvP2Zfpn6ZfpnmhqXGARuDLeW7Pq0hAG9a3uwdcLgNg3uPwTAO4KKQPQInABcPk7a8952A3CtbcpS6Lm3x4X9zgAeubEaAEM+s++Nw5w3ED9WAxCFfXP6LwBSsClAlo4pe2w+G3+v1xIBAUhCwBhm48eLAFOi3hpYtX5LDazaoDKpVeWyvgrAF8PhU0gyKhntvAsNn0JMRrce31xGBYAwoAgMX8QCoIOs8yBjMhn+MicApAZWEXSoDxrJqGS0U0aHS6E7AI+eQEmNmm+jkQAUGx01GTX2DUQEK/q55Pj3anTMHRljP9udYb/XIzBPfVgSAbqI5wsC4Mm+asCbfdv/BQJHYzF1fzpbAAAAAElFTkSuQmCC" />
+                    </td>
                     <td>
                       Pemutaran Episode 1070 -1071
                     </td>
@@ -166,8 +167,8 @@ function App() {
                   </tr>
                 ))}
                 <tr style={{ fontWeight: "bold" }}>
-                  <td>Keternagan</td>
-                  <td>{list["keterangan"]}</td>
+                  <td style={{ fontSize: "bold" }}>Keterangan</td>
+                  <td>{data["keterangan"] == "" ? data["keterangan"] : "-"}</td>
                 </tr>
               </tbody>
             </table>
