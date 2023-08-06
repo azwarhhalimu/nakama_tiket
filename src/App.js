@@ -138,7 +138,7 @@ function App() {
             <tbody><tr>
               <td>Nama </td>
               <td> : </td>
-              <td> {data["nama"]}</td>
+              <td style={{ textTransform: "capitalize" }}> {data["nama"]}</td>
             </tr>
               <tr>
                 <td>Jenis Kelamin </td>
