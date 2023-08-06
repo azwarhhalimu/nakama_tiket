@@ -65,6 +65,13 @@ function App() {
                 <tbody>
                   <tr>
                     <td width="40px">
+                      <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAQ1JREFUaEPtWdEOwiAMvP2Zfpn6ZfpnmhqXGARuDLeW7Pq0hAG9a3uwdcLgNg3uPwTAO4KKQPQInABcPk7a8952A3CtbcpS6Lm3x4X9zgAeubEaAEM+s++Nw5w3ED9WAxCFfXP6LwBSsClAlo4pe2w+G3+v1xIBAUhCwBhm48eLAFOi3hpYtX5LDazaoDKpVeWyvgrAF8PhU0gyKhntvAsNn0JMRrce31xGBYAwoAgMX8QCoIOs8yBjMhn+MicApAZWEXSoDxrJqGS0U0aHS6E7AI+eQEmNmm+jkQAUGx01GTX2DUQEK/q55Pj3anTMHRljP9udYb/XIzBPfVgSAbqI5wsC4Mm+asCbfdv/BQJHYzF1fzpbAAAAAElFTkSuQmCC" /> </td>
+                    <td>
+                      Pemutaran Episode 1070 -1071
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="40px">
                       <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAX1JREFUaEPtmVGOwjAMRIeTsZwMONkuJwMZNRUbmXjspAoVzm9TZ57tpO30gJ2Pw871IwFmVzAr8IkV+AHwC+APwA3AZbBIiXceFV9rIREvEK/jOgCkCNfyEY6vAdwbGY8s1BJeL+WO7wUoCzILeYSHQaIALZAe4W4QBkCyLZuuNWSODGZePYeNrx4mDECZ05PZ15ar95gn/mk5vdZkegDKTR4Qba+8A2Dj/9McAWAWam1yC8CKPwygLMQK2mR+TwU2EaScFM0EJQCAbCHjGZMtZH30ZAtlC1UZmNoS+RyYfa5nBbICMO3KoYdEvszNbrmvqICcbFt+InbFZypgWYzWptzUBNAAirlr+UDFp+mxSd6twdgwz3tbr8pM5jRTijWqokaY6UrUWWFAjDfi9bK2l7zx3QCWT8OIH2kGhwEiIIxwb8W7ARiQiHAGRP4aiT+6Dut7l2kP6eHj8ldnhHANpMSnzF1G9MfMGVGBqTAJMDX9xpN4tjZq/d230APoNpwxhtSGwgAAAABJRU5ErkJggg==" />
                     </td>
                     <td>
@@ -145,6 +152,7 @@ function App() {
             Pesanan Anda
             <br />
             <br />
+
             <table width={"100%"}>
               <tbody>
                 <tr style={{ fontWeight: "bold" }}>
@@ -157,7 +165,10 @@ function App() {
                     <td>{list["jumlah"]} Item</td>
                   </tr>
                 ))}
-
+                <tr style={{ fontWeight: "bold" }}>
+                  <td>Keternagan</td>
+                  <td>{list["keterangan"]}</td>
+                </tr>
               </tbody>
             </table>
           </div>
