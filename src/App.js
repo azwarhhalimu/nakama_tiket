@@ -58,7 +58,7 @@ function App() {
             <div style={{ padding: 15 }}>
 
               <div style={{ fontWeight: 'bolder' }}>
-                Tiket Nobar Preoder Minuman  Special Gear 5
+                Tiket Nobar Preoder Makanan/Minuman  One Piece Live Action NetFlix
               </div>
               <br />
               <table>
@@ -68,15 +68,20 @@ function App() {
                       <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAQ1JREFUaEPtWdEOwiAMvP2Zfpn6ZfpnmhqXGARuDLeW7Pq0hAG9a3uwdcLgNg3uPwTAO4KKQPQInABcPk7a8952A3CtbcpS6Lm3x4X9zgAeubEaAEM+s++Nw5w3ED9WAxCFfXP6LwBSsClAlo4pe2w+G3+v1xIBAUhCwBhm48eLAFOi3hpYtX5LDazaoDKpVeWyvgrAF8PhU0gyKhntvAsNn0JMRrce31xGBYAwoAgMX8QCoIOs8yBjMhn+MicApAZWEXSoDxrJqGS0U0aHS6E7AI+eQEmNmm+jkQAUGx01GTX2DUQEK/q55Pj3anTMHRljP9udYb/XIzBPfVgSAbqI5wsC4Mm+asCbfdv/BQJHYzF1fzpbAAAAAElFTkSuQmCC" />
                     </td>
                     <td>
-                      Pemutaran Episode 1070 -1071
+                      Pemutaran  1 - 2 Episode
                     </td>
                   </tr>
                   <tr>
                     <td width="40px">
                       <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAX1JREFUaEPtmVGOwjAMRIeTsZwMONkuJwMZNRUbmXjspAoVzm9TZ57tpO30gJ2Pw871IwFmVzAr8IkV+AHwC+APwA3AZbBIiXceFV9rIREvEK/jOgCkCNfyEY6vAdwbGY8s1BJeL+WO7wUoCzILeYSHQaIALZAe4W4QBkCyLZuuNWSODGZePYeNrx4mDECZ05PZ15ar95gn/mk5vdZkegDKTR4Qba+8A2Dj/9McAWAWam1yC8CKPwygLMQK2mR+TwU2EaScFM0EJQCAbCHjGZMtZH30ZAtlC1UZmNoS+RyYfa5nBbICMO3KoYdEvszNbrmvqICcbFt+InbFZypgWYzWptzUBNAAirlr+UDFp+mxSd6twdgwz3tbr8pM5jRTijWqokaY6UrUWWFAjDfi9bK2l7zx3QCWT8OIH2kGhwEiIIxwb8W7ARiQiHAGRP4aiT+6Dut7l2kP6eHj8ldnhHANpMSnzF1G9MfMGVGBqTAJMDX9xpN4tjZq/d230APoNpwxhtSGwgAAAABJRU5ErkJggg==" />
                     </td>
-                    <td>
-                      Jl. Moh. Yamin No.9, Bataraguru, Kec. Wolio, Kota Bau-Bau
+                    <td valign="top">
+                      <b>SIJA X GARPU KITCHEN</b>
+                      <br />
+                      Jl. Dr. Wahidin, Lamangga, Kec. Murhum, Kota Bau-Bau, Sulawesi Tenggara
+                      <br />
+                      <br />
+                      <a href="https://goo.gl/maps/hoLWV3R4r5Ca9EsL7">Open Google Map</a>
                     </td>
                   </tr>
                   <tr>
@@ -93,7 +98,7 @@ function App() {
                       <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAATJJREFUaEPtWW0OwiAM7W6mJ1NPpjfT1EiyINA+uq2QlV9L1tL3QdkHC00+lsnxUxDwdtDiwDsDj85lzf+WR4uuMVsBWPODgFVBa77KgQsR3X7rhq+PHg8iureKSj2Qq3Q0gVTvSkSvUvEWAWae1PcCnuoyeCbxN1oERlGfQU9PoLrlz+JAEPBu4k0ckLbcrUmqHnRIDwQB0KJwQKUAqCoSrqp/6h6QFNr7vvg6vTcA6/xBwKqgNd/sALKj9MRKBINAj6pITjggKeB939wDQSBriPy1RhIoHEB2lJ7Y3R3oAYXkBAGVAoikYKyq/qk/aEBB4XCzA08i8jgTqDEtrpbWEhqJQPWgo0WA1WcSI4wqTs3fNq+DjnQiw+oXT2eqP0xHkFyLQeOAdi6XuCDgIvuq6Af4PmMxJIcvjgAAAABJRU5ErkJggg==" />
                     </td>
                     <td>
-                      06 Agustus 2023
+                      Jum'at, 1 September 2023
                     </td>
                   </tr>
                 </tbody>
@@ -138,7 +143,7 @@ function App() {
             <tbody><tr>
               <td>Nama </td>
               <td> : </td>
-              <td> {data["nama"]}</td>
+              <td style={{ textTransform: "capitalize" }}> {data["nama"]}</td>
             </tr>
               <tr>
                 <td>Jenis Kelamin </td>
