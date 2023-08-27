@@ -72,7 +72,7 @@ function App() {
                     </td>
                   </tr>
                   <tr>
-                    <td width="40px">
+                    <td valign='top' width="40px">
                       <img style={{ width: "20px" }} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAX1JREFUaEPtmVGOwjAMRIeTsZwMONkuJwMZNRUbmXjspAoVzm9TZ57tpO30gJ2Pw871IwFmVzAr8IkV+AHwC+APwA3AZbBIiXceFV9rIREvEK/jOgCkCNfyEY6vAdwbGY8s1BJeL+WO7wUoCzILeYSHQaIALZAe4W4QBkCyLZuuNWSODGZePYeNrx4mDECZ05PZ15ar95gn/mk5vdZkegDKTR4Qba+8A2Dj/9McAWAWam1yC8CKPwygLMQK2mR+TwU2EaScFM0EJQCAbCHjGZMtZH30ZAtlC1UZmNoS+RyYfa5nBbICMO3KoYdEvszNbrmvqICcbFt+InbFZypgWYzWptzUBNAAirlr+UDFp+mxSd6twdgwz3tbr8pM5jRTijWqokaY6UrUWWFAjDfi9bK2l7zx3QCWT8OIH2kGhwEiIIxwb8W7ARiQiHAGRP4aiT+6Dut7l2kP6eHj8ldnhHANpMSnzF1G9MfMGVGBqTAJMDX9xpN4tjZq/d230APoNpwxhtSGwgAAAABJRU5ErkJggg==" />
                     </td>
                     <td valign="top">
