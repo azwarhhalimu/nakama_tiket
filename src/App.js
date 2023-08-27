@@ -135,7 +135,7 @@ function App() {
 
               <br />
 
-              <span style={{ fontSize: "12px", fontWeight: "bold", color: "#1977fc" }}>Jangan malakukan Screen Capture Pada Tiket. Karna Kode QR akan selalu berubah2.</span>
+              <span style={{ fontSize: "12px", fontWeight: "bold", color: "#fc5219" }}>Jangan malakukan Screen Capture Pada Tiket. Karna Kode QR akan selalu berubah2 setiap 1 Menit.</span>
             </div>
           </div>
           <br />
