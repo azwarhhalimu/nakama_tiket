@@ -4,6 +4,7 @@ import { RC4Decrypt, RC4Encrypt } from './enrcyptRc';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import baseUrl from './enviroment';
+import { isMobile } from 'react-device-detect';
 
 function App() {
   const [hasil, setHasil] = useState("");
@@ -45,7 +46,7 @@ function App() {
   }, []);
   return (
 
-    <div style={{ width: "390px", margin: "auto" }}>
+    <div style={{ width: isMobile ? "100%" : "390px", margin: "auto" }}>
       <>{loading && <div style={{ width: "100%", zIndex: "999999", textAlign: "center", position: "fixed", top: "40%", left: "34%" }}>
         <div style={{ textAlign: "center", width: "100px", fontWeight: "bold", color: "BLUE", padding: "10px", background: "#fff", border: "2px solid #DFDFDF" }}>Mengambil<br />data...</div>
       </div >}
